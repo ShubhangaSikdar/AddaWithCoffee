@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <a href="#home" class="logoText">
+                <h1>coffee house</h1>
+            </a>
+            <div class="nav">
+                <a href="#home">home</a>
+                <a href="#history">our history</a>
+                <a href="#menu">menu</a>
+                <a href="#pricing">table booking</a>
+                <a href="#contacts">contacts</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="home" id="home">
+        <h2>Welcome!</h2>
+        <span>coffee house<strong></strong></span>
+        <h4>Beyond the Bean: Coffee & Unexpected Delights</h4>
+    </main>
+
+    <section class="history" id="history">
+        <div class="left">
+            <img src="images/hist.jpg" alt="" class="img1">
+        </div>
+        <div class="right">
+            <h3>discover our history</h3>
+            <img src="images/breaker.png" alt="">
+            <p>
+                Coffee House at College Street can be traced to Albert Hall, which was founded in April 1876.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/College_Street_Coffee_House#History">see more</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>menu</h2>
+        <img src="images/breaker.png" alt="" class="break">
+        <p>
+            As the name depicts, this outlet is known for serving delicious food items. The menu is very limited but has
+            some really fantastic snacks to relish your taste buds. This is the place to relax yourself after a long
+            hectic day. The servers are very friendly and co-operative.
+        </p>
+        <!-- <div class="box"> -->
+        <a href="#beverage"><img src="images/beverage.jpg" alt="" class="Beverage">
+                <h3 class="content">beverages</h3>
+        </a>
+
+        <div class="beverages" id="beverage">
+            <div class="box">
+                    <img src="images/ColdCoffee.jpg" alt="Cold Coffee Image" class="coldCoffee">
+                    <h3 class="coffee">cold coffee</h3>
+                    <img src="images/blackTea.png" alt="" class="blackTea">
+                    <h3 class="tea">blackTea</h3>
+                </div>                
+            </div>
+
+        <a href="#"><img src="images/mainCourses.webp" alt="" class="mainCourses">
+                <h3 class="content1">main courses</h3>
+        </a>
+        <img src="images/noodles.png" alt="Mixed Noodles Image" class="noodles">
+        <img src="images/rice.png" alt="" class="rice">
+        <img src="images/fishFry.jpg" alt="">
+    </section>
+
+    <!-- <div class="boxContainer">
+        <div class="box">
+            <div class="image">
+                <img src="images/style_1.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">wedding hairstyle</h3>
+                <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos enim nemo illo quod vitae quae
+            earum facere ad iusto?
+          </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/style_2.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">reception hairstyle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos enim nemo illo quod vitae
+                    quae
+                    earum facere ad iusto?
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/style_3.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">party hairstyle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos enim nemo illo quod vitae
+                    quae
+                    earum facere ad iusto?
+                </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/style_4.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">casual hairstyle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos enim nemo illo quod vitae
+                    quae
+                    earum facere ad iusto?
+                </p>
+            </div>
+        </div>
+
+    </div> -->
+
+    <section class="reservation">
+        <h2>table booking</h2>
+        <img src="images/breaker.png" alt="" class="break">
+        <form action="" class="orderForm">
+            <div class="formGroup">
+                <input
+                type="name"
+                name="name"
+                id="name"
+                placeholder="User Name"
+                required="required"
+                autocomplete="off"/>
+            
+            <input
+                type="number"
+                name="no"
+                id="no"
+                placeholder="Phone number"
+                required="required"
+                autocomplete="off"/>
+                
+            <select class="selected" 
+            id="Persons"
+            required="required"
+            cols="30"
+            placeholder="No. of persons">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+            </select>
+            <br>
+            <button type="submit">Send Message</button>      
+            </div>
+            
+        </form>
+
+    </section>
+
+    <section class="contacts" id="contacts">
+        <h2>contact us</h2>
+        <img src="images/breaker.png" alt="" class="break">
+        <div class="contactsInfo">
+            <p> If you have any query, please fill
+                out the form below or contact us using the information provided.
+    </p>
+    <ul>
+        <li><i class="ri-mail-line"><a href=""></a></i>info@indiancoffeehouse.org</li>
+        <li><i class="ri-phone-fill"><a href=""></a></i>+91 9007798519</li>
+    </ul>
+</div>
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0808156735234!2d88.36142307475723!3d22.576080532843797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02764d5e20e8df%3A0xdc64330f0f594a5c!2sIndian%20Coffee%20House!5e0!3m2!1sen!2sin!4v1713972328319!5m2!1sen!2sin" width="50%"
+            height="70%"></iframe>
+        </div>
+        
+        <form action="" method="post">
+            <div class="form-group">
+                <input
+                type="name"
+                name="name"
+                id="name"
+                placeholder="User Name"
+                required="required"
+                autocomplete="off"/>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="User Email Id"
+                required="required"
+                autocomplete="off"/>
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+                autocomplete="off"
+                required="required"></textarea>
+            </div>
+            <button type="submit">Send Message</button>      
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><i class="ri-twitter-x-fill"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="ri-instagram-line"></i></a>
+        </div>
+        <p>&copy; 2024 coffee house website.</p>
+      </footer>
+</body>
+</html>

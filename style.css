@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Noto+Serif:ital,wght@0,900;1,900&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,103.1,200..1000;1,6..12,103.1,200..1000&family=Poppins:wght@600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none; 
+  border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  /* font-size: 14; */
+  line-height: 20px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: fixed;
+  width: 100%;
+  /* opacity: .6; */
+  top: 0;
+  left: auto;
+  background-color: #ff7b00f1;
+}
+/* .navBar . */
+.navBar .logoText {
+  margin-top: .1%;
+  font-size: 180%;
+  margin-left: 5%;
+  line-height: 84%;
+  font-weight: 700;
+  color: wheat;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.navBar .logoText:hover{
+  color: #4f1002e4;
+}
+.navBar .nav {
+  list-style: none;
+  text-decoration: none;
+  /* color: #923f07; */
+}
+.navBar .nav a {
+  font-size: 2.5rem;
+  margin-right: -1%;
+  font-weight: 600;
+  gap: 40%;
+  /* color: #c9d2d2; */
+  text-transform: capitalize;
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #3e1006e4;
+}
+.navBar .nav a:hover{
+  color: wheat;
+}
+.home{
+  background-image: url(images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 5;
+  min-height: 100rem;
+  display: flex;
+  align-items: center;
+}
+
+.home h2 {
+  font-size: 270%;
+  font-weight: 700;
+    display: block;
+    margin-top: 0%;
+    color: aliceblue;
+    font-style: italic;
+    margin-left: 35%;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    padding-bottom: .5rem;
+}
+.home span{
+  display: block;
+  font-size: 7rem;
+    margin-top: 8%;
+    font-style: italic;
+    margin-left: -16%;
+    font-weight: 900;
+    color: wheat;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    padding-bottom: .5rem;
+}
+.home h4{
+  /* text-align: end; */
+  font-size: 250%;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: rgb(252, 186, 186);
+  margin-left: -30%;
+  margin-top: 15%;
+}
+/* history start */
+.history{
+  display: flex;
+  width: 100%;
+}
+.history .right h3{
+  display: flex;
+  font-size: 4rem;
+  font-weight: 500;
+    padding-left: 90rem;
+    padding-top: 5%;
+    color: rgb(120, 19, 19);
+    text-transform: capitalize;
+    padding-bottom: .2%;
+}
+.history .right p{
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+    padding-left: 67%;
+    line-height: 100%;
+    color: rgb(120, 19, 19);
+    padding-bottom: 1.3%;
+}
+.history .right img{
+  padding-left: 75%;
+  padding-top: 2%;
+}
+.history .right a{
+  padding-left: 75%;
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.history .right a:hover{
+  color: rgb(120, 19, 19);
+}
+.history .left{
+  width: 45rem;
+  padding-top: 3%;
+  margin-left: -30%;
+}
+.history .left img{
+  display: flex;
+  width: 130%;
+  padding-top: 2%;
+}
+.history .left .img1{
+  padding-left: 58%;
+  margin-left: 60%;
+}
+/* history end */
+
+/* Menu start */
+.menu{
+  padding-top: 5%;
+}
+.menu h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 5.3rem;
+  font-weight: 800;
+  color: #6f4e37;
+  /* padding-bottom: 2%; */
+}
+.menu .break{
+  margin-left: 62rem;
+  padding-top: 2%;
+  padding-bottom: 1.2%;
+}
+.menu p{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 1.5%;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 130%;
+}
+.menu .box{
+  overflow: hidden;
+  padding-left: 25%;
+}
+.menu img{
+  border-radius: 50%;
+  max-width: 13%;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu .Beverage{
+  border-radius: 5%;
+  max-width: 20%;
+  margin-left: 25%;
+  padding-bottom: 1.3%;
+  cursor: pointer; 
+}
+.menu .Beverage:hover {
+  transform: scale(1.2);
+  opacity: .6;
+}
+.menu .Beverage .content{
+  align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    /* display: none; */
+}
+.menu .Beverage .content{
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    margin-top: 60%;
+    padding-left: 44rem;
+    text-transform: capitalize;
+}
+.menu .Beverage .content:hover{
+  display: flex;
+}
+.beverages{
+
+}
+.menu .beverages .box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax);
+  gap:1rem;
+}
+.menu .beverages .box .coldCoffee{
+  /* overflow: hidden;
+  text-align: center; */
+  /* width: 100%; */
+}
+.menu .beverages .box .coffee{
+  /* text-align: center; */
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 1rem;
+    padding-left: .5rem;
+    text-transform: capitalize;
+}
+.menu .beverages .box .blackTea{
+  overflow: hidden;
+  margin-top: -17rem;
+  margin-left: 30%;
+}
+.menu .beverages .box .tea{
+  font-size: 2.5rem;
+    color: black;
+    margin-top: -3.4rem;
+    padding-left: 34rem;
+    text-transform: capitalize;
+}
+.menu .mainCourses{
+  border-radius: 5%;
+  max-width: 20%;
+  margin-left: 25%;
+  padding-bottom: 1.3%;
+  cursor: pointer; 
+}
+.menu .mainCourses:hover {
+  transform: scale(1.2);
+  opacity: .6;
+}
+/* .menu .mainCourses .content{
+  align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    
+} */
+.menu .mainCourses .content1 h3{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    padding-top: 500rem;
+    padding-left: 240rem;
+    text-transform: capitalize;
+}
+.menu .mainCourses .content1:hover{
+  display: flex;
+}
+/* .reservation{
+  background-color: #e8b185;
+  text-align: center;
+}
+.orderForm {
+  margin-top: 5%;
+  color: #fff;
+  font-size: 26%;
+  text-align: center;
+}
+.orderForm .formGroup{
+  display: block;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+} */
+
+
+.reservation{
+  text-align: center;
+  background-color: #f8e2a0;
+  padding-bottom: 2%;
+  background-attachment: fixed;
+}
+.reservation h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 5.3rem;
+  font-weight: 800;
+  color: #6f4e37;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.reservation .break{
+  padding-bottom: 1.2%;
+}
+.reservation form{
+  width: 100%;
+}
+input{
+  width: 70%;
+  padding: 10%;
+  margin: 20% 0;
+  border-radius: 5%;
+  font-size: 1.2rem;
+}
+select{
+  width: 70%;
+  padding: 1%;
+  margin: 2% 0;
+  border-radius: 4%;
+  font-size: 1.2rem;
+}
+button{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff7f50;
+  padding: 1% 2%;
+  border-radius: 10%;
+  font-size: 1.6rem;
+  border: none;
+  transition: all ease 0.3s;
+}
+button:hover{
+  background-color: #8f4204ad;
+}
+
+.contacts{
+  text-align: center;
+  background-color: #e8b185;
+  padding-bottom: 2%;
+  background-attachment: fixed;
+}
+.contacts h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 5.3rem;
+  font-weight: 800;
+  color: #6f4e37;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.contacts .break{
+  padding-bottom: 1.2%;
+}
+.contacts .contactsInfo p{
+  font-size: 1.4rem;
+  padding-bottom: 1.2%;
+}
+.contacts .contactsInfo ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+.contacts .contactsInfo li{
+  margin: 0 4%;
+  font-size: 1.4rem;
+  padding-right: 5%;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contacts .contactsInfo li a{
+  text-decoration: none;
+  margin-left: 10%;
+  gap: 1%;
+  color: black;
+}
+
+.contacts .contactsInfo i{
+  font-size:124%;
+}
+
+.contacts form{
+  width: 100%;
+}
+input,textarea{
+  width: 70%;
+  padding: 1%;
+  margin: 1% 0;
+  border-radius: 3%;
+  font-size: 1.2rem;
+}
+textarea{
+  height: 20%;
+}
+form button{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff7f50;
+  padding: 1% 2%;
+  border-radius: 10%;
+  font-size: 1.6rem;
+  border: none;
+  transition: all ease 0.3s;
+}
+form button:hover{
+  background-color: #8f4204ad;
+}
+
+footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.social-icons{
+  margin-left: 5%;
+  padding-bottom: 2%;
+}
+.social-icons a{
+  color: black;
+  font-size: 240%;
+}
+footer p{
+  margin-left: 5%;
+  font-size: 200%;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+  #menu-btn {
+      display: inline-block;
+  }
+
+  .navBar .nav {
+      position: fixed;
+      top: 0;
+      right: -10%;
+      width: 30rem;
+      background: white;
+      height: 100%;
+      display: none;
+  }
+
+  .home .content h3 {
+      font-size: 5.5rem;
+      line-height: 5rem;
+  }
+}
+
+@media (max-width:500px) {
+  html {
+      font-size: 50%;
+  }
+
+  .home .content h3 {
+      font-size: 4.5rem;
+  }
+}
+
+@media (max-width:410px) {
+  html {
+      font-size: 50%;
+  }
+
+  /* h2 {
+      font-size: 4.3rem;
+  } */
+}
